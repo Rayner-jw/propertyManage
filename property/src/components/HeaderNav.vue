@@ -1,5 +1,6 @@
 <template>
   <div class="headerNav">
+    <slot name="navTitle"></slot>
   </div>
 </template>
 
@@ -23,5 +24,13 @@ export default {
 	width: 100%;
 	height: 50px;
 	background: #24292E;
+}
+.headerNav span{
+  color: white;
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
 }
 </style>

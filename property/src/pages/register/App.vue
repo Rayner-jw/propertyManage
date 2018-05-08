@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-  	<HeaderNav></HeaderNav>
+  	<HeaderNav>
+      <span slot="navTitle">用户注册</span>
+    </HeaderNav>
     <Register></Register>
   </div>
 </template>
